@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* ColorKidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* ColorKidsApp.swift */; };
+		A10000000000000000000002 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Theme.swift */; };
+		A10000000000000000000003 /* ColoringPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* ColoringPage.swift */; };
+		A10000000000000000000004 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* ColorPalette.swift */; };
+		A10000000000000000000005 /* OutlineArtGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* OutlineArtGenerator.swift */; };
+		A10000000000000000000006 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* FloodFill.swift */; };
+		A10000000000000000000007 /* ColoringCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* ColoringCanvas.swift */; };
+		A10000000000000000000008 /* SavedArtStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* SavedArtStore.swift */; };
+		A10000000000000000000009 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* HomeView.swift */; };
+		A1000000000000000000000A /* ThemeGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* ThemeGalleryView.swift */; };
+		A1000000000000000000000B /* ColoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* ColoringView.swift */; };
+		A1000000000000000000000C /* MyArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* MyArtView.swift */; };
+		A1000000000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C10000000000000000000001 /* ColorKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000001 /* ColorKidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorKidsApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* ColoringPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringPage.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* OutlineArtGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineArtGenerator.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* ColoringCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringCanvas.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* SavedArtStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedArtStore.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* ThemeGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeGalleryView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* ColoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* MyArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArtView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				E10000000000000000000002 /* ColorKids */,
+				E10000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10000000000000000000002 /* ColorKids */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* ColorKidsApp.swift */,
+				E10000000000000000000004 /* Models */,
+				E10000000000000000000005 /* Engine */,
+				E10000000000000000000006 /* Store */,
+				E10000000000000000000007 /* Views */,
+				B1000000000000000000000D /* Assets.xcassets */,
+			);
+			path = ColorKids;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000001 /* ColorKids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* Theme.swift */,
+				B10000000000000000000003 /* ColoringPage.swift */,
+				B10000000000000000000004 /* ColorPalette.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000005 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000005 /* OutlineArtGenerator.swift */,
+				B10000000000000000000006 /* FloodFill.swift */,
+				B10000000000000000000007 /* ColoringCanvas.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000006 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000008 /* SavedArtStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000009 /* HomeView.swift */,
+				B1000000000000000000000A /* ThemeGalleryView.swift */,
+				B1000000000000000000000B /* ColoringView.swift */,
+				B1000000000000000000000C /* MyArtView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10000000000000000000001 /* ColorKids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000004 /* Build configuration list for PBXNativeTarget "ColorKids" */;
+			buildPhases = (
+				F10000000000000000000002 /* Sources */,
+				D10000000000000000000001 /* Frameworks */,
+				F10000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorKids;
+			productName = ColorKids;
+			productReference = C10000000000000000000001 /* ColorKids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10000000000000000000005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F10000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F10000000000000000000006 /* Build configuration list for PBXProject "ColorKids" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E10000000000000000000001;
+			productRefGroup = E10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10000000000000000000001 /* ColorKids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* ColorKidsApp.swift in Sources */,
+				A10000000000000000000002 /* Theme.swift in Sources */,
+				A10000000000000000000003 /* ColoringPage.swift in Sources */,
+				A10000000000000000000004 /* ColorPalette.swift in Sources */,
+				A10000000000000000000005 /* OutlineArtGenerator.swift in Sources */,
+				A10000000000000000000006 /* FloodFill.swift in Sources */,
+				A10000000000000000000007 /* ColoringCanvas.swift in Sources */,
+				A10000000000000000000008 /* SavedArtStore.swift in Sources */,
+				A10000000000000000000009 /* HomeView.swift in Sources */,
+				A1000000000000000000000A /* ThemeGalleryView.swift in Sources */,
+				A1000000000000000000000B /* ColoringView.swift in Sources */,
+				A1000000000000000000000C /* MyArtView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10000000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ColorKids;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.colorkids.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1000000000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ColorKids;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.colorkids.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000006 /* Build configuration list for PBXProject "ColorKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000007 /* Debug */,
+				F10000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000004 /* Build configuration list for PBXNativeTarget "ColorKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000009 /* Debug */,
+				F1000000000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10000000000000000000005 /* Project object */;
+}
